@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+img{
+    width: 80px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(26, 26, 59);
+    padding: 8px 12px;
+}
+
+.text{
+    display: flex;
+    list-style: none;
+    font-size:20px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.text li{
+    padding: 8px 12px;
+}
+
+.logo i{
+    color: white;
+    font-size: 40px;
+    padding: 12px;
+    padding-left: 0;
+}
+
+@media screen and (max-width:800px){
+    .profile{
+        flex-direction:column;
+    }
+}
